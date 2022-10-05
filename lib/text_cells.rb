@@ -1,14 +1,15 @@
-module TextCells
+# frozen_string_literal: true
 
+module TextCells
   def breathe
-    "Breate through your instrument - literally."
+    'Breate through your instrument - literally.'
   end
 
   def fat_points
-    "Pointalistically, but with molasses."
+    'Pointalistically, but with molasses.'
   end
 
   def honk
-    "Goose honking, goose flapping."
+    'Goose honking, goose flapping.'
   end
 end

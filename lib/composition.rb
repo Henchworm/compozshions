@@ -1,10 +1,9 @@
-require 'text_cells'
-require 'dynamics_generator'
-require 'graphic_cells'
-require 'pitch_generator'
-
-
-
+# frozen_string_literal: true
+#
+require './text_cells'
+require './dynamics_generator'
+require './graphic_cells'
+require './pitch_generator'
 
 class Composition
   include TextCells
@@ -16,5 +15,9 @@ class Composition
 
   def initialize(opus_no)
     @opus_no = opus_no
+  end
+
+  def self.play(opus_no)
+    new(opus_no)
   end
 end

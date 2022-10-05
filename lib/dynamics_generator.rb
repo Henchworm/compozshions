@@ -1,2 +1,7 @@
+# frozen_string_literal: true
+
 module DynamicsGenerator
-end 
+  def dynamics
+    %w[ppp pp mp mf f ff fff]
+  end
+end

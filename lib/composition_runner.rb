@@ -7,8 +7,10 @@ require './pitch_generator'
 puts "Which composition would you like to play?"
 opus_no = gets.chomp
 composition = Composition.play(opus_no)
-require'pry';binding.pry
 case composition.opus_no
-when 1
-  require"pry";binding.pry
+when '1'
+ system "clear"
+ sleep(5)
+  puts composition.breathe
+ sleep(5)
 end

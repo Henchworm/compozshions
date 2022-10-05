@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-#
+
 require './text_cells'
 require './dynamics_generator'
 require './graphic_cells'
